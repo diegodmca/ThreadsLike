@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		279297722FBFF68C002B3A27 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279297712FBFF68C002B3A27 /* ThreadsTabView.swift */; };
 		27A1D5582FBF487C00DFA6E8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1D5572FBF487C00DFA6E8 /* RegistrationView.swift */; };
 		27A1D55B2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1D55A2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift */; };
 		27A6DCB02FBC0543004C6B37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6DCAD2FBC0543004C6B37 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279297712FBFF68C002B3A27 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
 		27A1D5572FBF487C00DFA6E8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		27A1D55A2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 		27A6DC942FBB9FAE004C6B37 /* ThreadsLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279297702FBFF5D3002B3A27 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				279297712FBFF68C002B3A27 /* ThreadsTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		27A1D5592FBF4C6100DFA6E8 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		27A6DCC32FBE9C56004C6B37 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				279297702FBFF5D3002B3A27 /* TabBar */,
 				27A6DCC12FBE9C56004C6B37 /* Authentication */,
 				27A6DCC22FBE9C56004C6B37 /* Root */,
 			);
@@ -219,6 +230,7 @@
 			files = (
 				27A6DCC62FBE9D0F004C6B37 /* LoginView.swift in Sources */,
 				27A6DCB02FBC0543004C6B37 /* ContentView.swift in Sources */,
+				279297722FBFF68C002B3A27 /* ThreadsTabView.swift in Sources */,
 				27A1D55B2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift in Sources */,
 				27A6DCB12FBC0543004C6B37 /* ThreadsLikeApp.swift in Sources */,
 				27A1D5582FBF487C00DFA6E8 /* RegistrationView.swift in Sources */,
