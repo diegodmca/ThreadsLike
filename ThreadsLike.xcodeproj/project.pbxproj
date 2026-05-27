@@ -20,6 +20,8 @@
 		27A6DCB12FBC0543004C6B37 /* ThreadsLikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6DCAE2FBC0543004C6B37 /* ThreadsLikeApp.swift */; };
 		27A6DCB22FBC0543004C6B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A6DCAC2FBC0543004C6B37 /* Assets.xcassets */; };
 		27A6DCC62FBE9D0F004C6B37 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6DCC52FBE9D0F004C6B37 /* LoginView.swift */; };
+		27C2934D2FC67D6F0056AB63 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2934C2FC67D6F0056AB63 /* CircularProfileImageView.swift */; };
+		27C293512FC67EA70056AB63 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C293502FC67EA70056AB63 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		27A6DCAD2FBC0543004C6B37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27A6DCAE2FBC0543004C6B37 /* ThreadsLikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsLikeApp.swift; sourceTree = "<group>"; };
 		27A6DCC52FBE9D0F004C6B37 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		27C2934C2FC67D6F0056AB63 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		27C293502FC67EA70056AB63 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +237,7 @@
 		27A6DCC32FBE9C56004C6B37 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				27C2934B2FC67D060056AB63 /* Components */,
 				2764824D2FC1304000A39B50 /* Activity */,
 				27A6DCC12FBE9C56004C6B37 /* Authentication */,
 				276482442FC12DC900A39B50 /* Explore */,
@@ -252,6 +257,15 @@
 				27A1D5572FBF487C00DFA6E8 /* RegistrationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		27C2934B2FC67D060056AB63 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				27C2934C2FC67D6F0056AB63 /* CircularProfileImageView.swift */,
+				27C293502FC67EA70056AB63 /* UserCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +345,8 @@
 				27A6DCB02FBC0543004C6B37 /* ContentView.swift in Sources */,
 				276482562FC133AB00A39B50 /* ThreadCell.swift in Sources */,
 				276482502FC1306100A39B50 /* ActivityView.swift in Sources */,
+				27C2934D2FC67D6F0056AB63 /* CircularProfileImageView.swift in Sources */,
+				27C293512FC67EA70056AB63 /* UserCell.swift in Sources */,
 				279297722FBFF68C002B3A27 /* ThreadsTabView.swift in Sources */,
 				27A1D55B2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift in Sources */,
 				27A6DCB12FBC0543004C6B37 /* ThreadsLikeApp.swift in Sources */,
