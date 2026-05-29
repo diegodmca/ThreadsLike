@@ -22,6 +22,7 @@
 		27A6DCC62FBE9D0F004C6B37 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6DCC52FBE9D0F004C6B37 /* LoginView.swift */; };
 		27C2934D2FC67D6F0056AB63 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2934C2FC67D6F0056AB63 /* CircularProfileImageView.swift */; };
 		27C293512FC67EA70056AB63 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C293502FC67EA70056AB63 /* UserCell.swift */; };
+		27D5EDC92FC920B00074694A /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5EDC82FC920B00074694A /* ProfileThreadFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		27A6DCC52FBE9D0F004C6B37 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		27C2934C2FC67D6F0056AB63 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		27C293502FC67EA70056AB63 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		27D5EDC82FC920B00074694A /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		276482512FC130A700A39B50 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				27D5EDC72FC920720074694A /* Model */,
 				276482522FC130B000A39B50 /* View */,
 			);
 			path = Profile;
@@ -268,6 +271,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		27D5EDC72FC920720074694A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27D5EDC82FC920B00074694A /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -348,6 +359,7 @@
 				27C2934D2FC67D6F0056AB63 /* CircularProfileImageView.swift in Sources */,
 				27C293512FC67EA70056AB63 /* UserCell.swift in Sources */,
 				279297722FBFF68C002B3A27 /* ThreadsTabView.swift in Sources */,
+				27D5EDC92FC920B00074694A /* ProfileThreadFilter.swift in Sources */,
 				27A1D55B2FBF4CA900DFA6E8 /* ThreadsTextFieldModifier.swift in Sources */,
 				27A6DCB12FBC0543004C6B37 /* ThreadsLikeApp.swift in Sources */,
 				276482472FC12E1800A39B50 /* ExploreView.swift in Sources */,
